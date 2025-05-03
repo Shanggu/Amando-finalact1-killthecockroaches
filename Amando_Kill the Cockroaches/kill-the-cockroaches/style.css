@@ -1,0 +1,90 @@
+body {
+    margin: O;
+    background: #e6fff2;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .game-container {
+    padding: 20px;
+  }
+  
+  #game-area {
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    background: #fff;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #game-screen {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #start-screen {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px #1c7430;
+  }
+  
+  .game-info {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px 20px;
+  }
+  
+  .cockroach {
+    width: 50px;
+    height: 50px;
+    background: url('roach.png') no-repeat center/cover;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .hud {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .instruction {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .game-container {
+    padding: 20px;
+  }
+  
+  #game-area {
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    background: #fff;
+    border: 2px solid #ccc;
+    position: relative;
+    overflow: hidden;
+  }
